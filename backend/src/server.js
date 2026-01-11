@@ -26,12 +26,15 @@ app.get("/books",(req,res) => {
 })
 
 if(ENV.NODE_ENV === "production") {
-    app.use(express.static(path.join(__dirname,"../frontend/dist")))
+    // Serve static files from the React build
+    app.use(express.static(path.join(__dirname, "../frontend/dist")));
 
-    app.get("/{*any}", (req,res) => {
-        res.sendFile(path.join(__dirname,"../frontend","dist","index.html"))
-    })
+    // Catch all remaining requests and return React's index.html
+    app.get("*", (req, res) => {
+        res.sendFile(path.join(__dirname, "../frontend/dist/index.html"));
+    });
 }
+
 
 const startServer = async () => {
   try {
