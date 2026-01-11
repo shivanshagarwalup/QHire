@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npm --prefix frontend install && npm --prefix frontend run build",
-    "start": "npm --prefix backend run start"
+    "scripts": {
+  "build": "npm --prefix frontend install && npx --prefix frontend vite build",
+  "start": "npm --prefix backend run start"
+}
+
 
   },
   "repository": {
