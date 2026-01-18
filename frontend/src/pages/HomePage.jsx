@@ -88,10 +88,7 @@ function HomePage() {
                 </button>
               </SignInButton>
 
-              <button className="btn btn-outline btn-lg gap-2">
-                <VideoIcon className="size-5" />
-                See how it works
-              </button>
+      
             </div>
           </div>
 
