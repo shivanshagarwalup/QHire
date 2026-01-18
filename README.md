@@ -22,6 +22,9 @@ QHire is a full-stack remote technical interviewing platform that enables live p
 - 📦 **MongoDB for persistence**
 - 🚀 **Deployed on Render**
 - 🧑‍💻 **GitHub PR-based workflow**
+- 🔗 **Deployed Link:** [https://qhire.onrender.com](https://qhire.onrender.com)
+
+
 
 ---
 ## Dashboard
