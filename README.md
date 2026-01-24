@@ -6,11 +6,10 @@ QHire is a full-stack remote technical interviewing platform that enables live p
 
 ## ✨ Feature Highlights
 
-- 🧑‍💻 **VSCode-powered Monaco Editor**
 - 🔐 **Clerk Authentication**
 - 🎥 **1-on-1 Video Interview Rooms**
 - 💬 **Real-time Chat Messaging**
-- 🔊 **Mic / Camera Toggle + Screen Sharing + Recording**
+- 🔊 **Mic / Camera Toggle + Screen Sharing **
 - ⚙️ **Secure Remote Code Execution via Piston API**
 - 🎯 **PASS / FAIL evaluation using hidden test cases**
 - 🎉 **Confetti on success + Notifications on fail**
