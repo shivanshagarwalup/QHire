@@ -4,7 +4,7 @@ QHire is a full-stack remote technical interviewing platform that enables live p
 
 ---
 
-## ✨ Feature Highlights
+## ✨ _Feature Highlights_
 
 - 🔐 **Clerk Authentication**
 - 🎥 **1-on-1 Video Interview Rooms**
